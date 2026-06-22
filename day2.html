@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* body{
+           background-color: aquamarine;
+            background-image: url("https://images.unsplash.com/photo-1717691449368-ecb097f1f407?q=80&w=1295&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-size: cover;
+        } */
+         .mainContainer::before{
+            top: 0;
+            left: 0;
+            content: "";
+            width: 100%;
+            height: 100%; 
+            /* position: absolute;
+            background: url("https://images.unsplash.com/photo-1717691449368-ecb097f1f407?q=80&w=1295&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat center center/cover; */
+            /* background-position: center top;
+            background-repeat: no-repeat;
+            background-size: cover; */
+            z-index: -1;
+         }
+        .container{
+           /* background-color: rgba(255, 21, 0, 0.1);  */
+           /* background-color:hsla(330, 3%, 45%, 0.984);  */
+        }
+        h1:hover{
+            color: hwb(0 0% 0%);
+            /* background-color: aquamarine; */
+            
+        }
+        /* input:focus{
+            border: 2px solid red;
+            outline: none;
+        }
+        li:nth-child(2){
+            background-color: aqua;
+        }
+        p::first-letter {
+        font-size: 30px;
+        color: blue;
+        background-color: aqua;
+        } */
+        /* main::before {
+            content: "Before Elment";
+        }
+        main::after {
+            content: "Before Elment";
+        } */
+         h1{
+            /* text-align: right; */
+            text-decoration: underline;
+            /* text-transform: uppercase; */
+            line-height: 2;
+            letter-spacing: 22px;
+            text-shadow: 2px 2px 5px rgb(222, 39, 39);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 50px;
+            font-variant: small-caps;
+         }
+         p{
+            
+         }
+    </style>
+</head>
+<body>
+    
+    <div class="mainContainer">
+        <div class="container">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Service</a></li>
+            <li><a href="">FAQ</a></li>
+        </ul>
+    </div>
+    <main>
+        <h1>My instrduction to me</h1>
+        <h1>My instrduction to me</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+    </main>
+    <form action="">
+        <label for="">Name:</label>
+        <input type="text" name="" id=""> <br><br>
+        <label for="">Name:</label>
+        <input type="email" name="" id="">
+    </form>
+    </div>
+</body>
+</html>
