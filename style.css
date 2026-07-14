@@ -1,46 +1,5 @@
 
-
-/* *{
-    color: blue;
-} */
-
-/* p{
-    color: rgb(57, 158, 124);
-} */
-/* 
-#firstPara{
-    color: blue;
-}
-
-.para{
-    color: brown;
-} */
-
-/* h1,p,div{
+p{
+    background-color: aqua;
     color: red;
-} */
-
-/* div p{
-    color: rgb(42, 128, 165);
-} */
-/* div>p{
-    color: rgb(42, 128, 165);
-} */
-
-/* div+p{
-    color: rgb(42, 128, 165);
-} */
-/* div~p{
-    color: rgb(42, 128, 165);
-} */
-
-/* input[name="name"]{
-    color: rgb(13, 56, 78);
-} */
-
-/* a[href^="https"] {
-    color: rgb(128, 0, 55);
-} */
-a[href$=".html"] {
-    color: rgb(85, 94, 4);
 }
