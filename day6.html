@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            /* border: 2px solid red; */
+        }
+
+        .box{
+            background-color: blue;
+            height: 100px;
+            width: 100px;
+            position: relative;
+            /* text-align: left; */
+            /* transform: translate(0,0); */
+            transition: all 1s ease-in;
+            margin: 200px 200px;
+            /* animation: ayush 3s ease-in 0s 5 forwards; */
+            animation: ayush 5s ease-in-out;
+            
+        }
+
+        /* @keyframes ayush {
+            from{
+                width: 0px;
+            }to{
+                width: 600px;
+            }
+        } */
+
+        @keyframes ayush {
+            0%{
+                top: 0px;
+                left: 0px;
+            }25%{
+                /* width: 600px; */
+                top:0px;
+                left:400px;
+                background-color: brown;
+                border-radius: 50px;
+            }50%{
+                /* width: 600px; */
+                top:400px;
+                left:400px;
+                background-color: blueviolet;
+                border-radius: 50px;
+            }75%{
+                /* width: 600px; */
+                top:400px;
+                left:0px;
+                background-color: chartreuse;
+                border-radius: 50px;
+            }100%{
+                /* width: 600px; */
+                top:0px;
+                left:0px
+            }
+        }
+
+        .box:hover{
+            /* width: 700px; */
+            /* text-align: right; */
+            /* background-color: rgb(174, 174, 207); */
+            /* transform: translate(100px,100px); */
+            /* transform: rotate(13060deg); */
+            /* transform: skew(80deg, 20deg); */
+            /* transform: scale(4); */
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+</html>

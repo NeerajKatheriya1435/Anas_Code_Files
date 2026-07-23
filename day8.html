@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            display: none;
+        }
+
+        @media (max-width:400px) {
+            #box4{
+                display: block;
+                background-color: chartreuse;
+                height: 50px;
+                font-size: 23px;
+                text-align: center;
+                padding: 10px;
+            }
+        }
+
+        @media (min-width:400px) and (max-width:700px) {
+            #box3{
+                display: block;
+                background-color: rgb(201, 122, 80);
+                height: 50px;
+                font-size: 23px;
+                text-align: center;
+                padding: 10px;
+            }
+        }
+        @media (min-width:700px) and (max-width:1200px) {
+            #box2{
+                display: block;
+                background-color: rgb(201, 80, 134);
+                height: 50px;
+                font-size: 23px;
+                text-align: center;
+                padding: 10px;
+            }
+        }
+
+        @media (min-width:1200px) {
+            #box1{
+                display: block;
+                background-color: rgb(62, 77, 189);
+                height: 50px;
+                font-size: 23px;
+                text-align: center;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="box" id="box1">Main ek badi display hu</div>
+        <div class="box" id="box2">Normal Computer</div>
+        <div class="box" id="box3">Simple tablet</div>
+        <div class="box" id="box4">Mobile Phone</div>
+    </div>
+</body>
+</html>
